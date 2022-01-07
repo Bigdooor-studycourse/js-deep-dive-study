@@ -46,7 +46,7 @@ var users = [
     {id: 1, name: 'Lee'},
     {id: 2, name: 'Kim'}
 ]
-```javascript
+```
 
 메모리 공간에 저장된 값을 식별할 수 있는 고유한 이름을 **변수 이름(변수명)**, 변수에 저장된 값을 **변수 값** 이라 한다.
 
@@ -181,17 +181,17 @@ var FIRSTNAME;
 좋은 변수 이름은 코드의 가독성을 높인다.
 
 * 변수의 4가지 유형의 네이밍 컨벤션
-```
-1. 카멜 케이스(camelCase)
+```javascript
+//1. 카멜 케이스(camelCase)
 var firstName;
 
-2. 스네이크 케이스(snake_case)
+//2. 스네이크 케이스(snake_case)
 var first_name;
 
-3. 파스칼 케이스(PascalCase)
+//3. 파스칼 케이스(PascalCase)
 var FirstName;
 
-4. 헝가리언 케이스(typeHungarianCase)
+//4. 헝가리언 케이스(typeHungarianCase)
 var strFirstName; //type + identifier
 var $elem = document.getElementById('myId'); //DOM 노드
 var observable$ = fromEvent(document, 'click'); //RxJS 옵저버블
